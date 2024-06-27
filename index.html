@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UFT-8">
+    <meta name="viewpoint" content=" "Width="device-width"
+    initial-scale="1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Md Tuhin Mia">
+    <meta name="keywords" content="Protfolio,html,Md tuhin mia ">
+    <meta name="Description" content="Md tuhin mia is a developer">
+    <title>My Protfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+    crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+
+    </head>
+
+<body>
+    <!--Basic personal information -->
+<h1 >Welcome to my protfolio</h1> 
+
+<!--Add font aweaome cdn -->
+
+<style>
+body{
+    background-color: rgb(168, 197, 187);
+    font-family: "Roboto", sans-serif;
+}
+
+</style>
+<!--google font-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+<!--Section intro-->
+<section id="intro">
+ <h2><b>Tuhin Ahmed</b></h2>
+ <p><em> Web developer and computer science & engineering</em> </p>
+ <a href="https://www.youtube.com/"><img src="./Images/Md Tuhin Mia.jpg"  height="155" alt="Md Tuhin Mia"/></a>
+ 
+ <hr/>
+<header>
+    <Nav>
+        <ul>
+            <li> <a href="#index.html" title="Visit Home pages ">Home</a></li>
+        </ul>
+        <ul>
+            <li> <a href="#skill.html">Skill</a></li>
+        </ul>
+        <ul>
+            <li> <a href="#Project.html">My Project</a></li>
+        </ul>
+        <ul>
+            <li><a href="#Contact.html">Contact</a></li>
+        </ul>
+        <ul>
+            <li><a href="#./pages/AboutMe.html">About Me</a></li>
+        </ul>
+            
+    </Nav>
+    
+</header>
+
+
+<main>
+<!--Working Experience -->
+<section id="Working Experience"></section>
+<h3>Working Experience</h3>
+<hr/>
+    <p><strong><u>Working Experience</u>:</strong> 2 years Experience in web development</p>
+    <p><strong>Academic Education:</strong> Bsc in CSE</p>
+</section>
+
+<!--section Skill-->
+<section id="Skill">
+    <h4><u>Skill</u></h4>
+    <table border="1"cellpadding="10"cellspacing="0">
+        <thead>
+            <tbody>
+                <tr>
+                    <th>Technology</th>
+                    <th>Proficiency</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td rowspan="2">Expert</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    
+                    
+                </tr>
+                <tr>
+                    <td>Javascript</td>
+                    <td>Intermediate</td>
+                </tr>
+            </tbody>
+    
+        </thead>
+    </table>
+    <h3>Skill progress</h3>
+        <div>
+        <label for="htmlprogress">HTML: </label>
+         <progress id="htmlprogress" value="90" max="100">90%</progress>
+        </div>
+        <div>
+        <label for="Cssprogress">CSS: </label>
+         <progress id="cssprogress" value="95" max="100">95%</progress>
+        </div>
+         <div>
+        <label for="Javascriptprogress">Javascript: </label>
+         <progress id="Javascriptprogress" value="70" max="100">70%</progress>
+        </div>
+
+        <div>
+            <h3>Experience Level
+            </h3>
+                <label for="Experiencelevel">Experience: </label>
+                 <meter id="Experiencelevel" value="5" min="0" max="10">5 years </meter>
+                </div>
+    
+    
+</section>
+<!--section project-->
+<section id="Project">
+    <h3>Project</h3>
+<ol>
+    <li>protfolio website</li>
+    <li>Blog website</li>
+    <li>E-Commerce Website</li>
+</ol>
+</section>
+
+<video width="280" height="300" controls>
+    <caption>Tuitorial video </caption>
+    <source src="/video/Cambridge Book 16 - TEST 3.mp4" type="video/mp4">
+
+</video>
+
+
+
+<!--Section:Contact-->
+<section id="contract">
+
+    <h2>Contact Me</h2>
+    <form>
+        <fieldset><legend>personal Information</legend>
+            <div>
+                <label for="name">Name: </label>
+                <input type="text" id="name"name="name" required="" />
+                </div>
+
+                <div>
+                    <label for="email"> Email: </label>
+                    <input type="email" id="email" name="email" required=""/>
+                    </div>
+
+                    <div>
+                        <label for="Age"> Age: </label>
+                        <input type="number" id="Age" name="Age" min="18" max="56" required=""/>
+                    </div>
+
+        </fieldset>
+
+
+        <div>
+        <label for="Favorite">Favorite color: </label>
+        <input type="color"  value="#fff0000" 
+        
+        id="Favorite"name="Favorite" required="" />
+        </div>
+
+        <div>
+            <label for="Experience">Experience: </label>
+            <input type="range"  min="5" max="100"
+            
+            id="Experience"name="Experience" required="" />
+            </div>
+
+        <div>
+            <label for="programming">Number of learnig programming language: </label>
+            <input list="language"  
+            
+            id="programming"name="programming" required="" />
+            </div>
+
+            <datalist id="language">
+                <option value="C"></option>
+                <option value="C++"></option>
+                <option value="Java "></option>
+               <option value="Javascript"></option>
+
+            </datalist>
+        <div>
+            <label for="Website"> Website: </label>
+            <input type="url" id="website" name="Website" required="" />
+            </div>
+
+            <div>
+                <label for="Subject">Subject: </label>
+                <select name="Subject" id="Subject">
+                    <option value="job">Job oppottunity</option>
+                    <option value="Inqury">Inqury</option>
+                    <option value="Information">Informmation</option>
+                </select>
+                </div>
+        <div>
+        <label for="Images"> Images: </label>
+        <input type="file" id="Images" name="Images" required=""/>
+        </div>
+
+        
+
+        <div>
+        <label for="Message"> Message: </label>
+        <textarea name="Message" id="Message" name="Message" rows="10" cols="20" >
+
+        </textarea>
+
+       </div>
+        
+        <button type="submit"> Submit</button>
+        <button type="Clear"> Clear</button>
+    </form>
+
+</section>
+</main>
+
+<!--Footer-->
+<section>
+    <footer>
+        <p>copyrights resived by &copy:Tuhin6024</p>
+        <a href="tel:01764566838">Call Me</a></br>
+        <a href="ta1146055@gmail.com">Email</a>
+        <div>
+        <h3>Follow Me</h3>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/profile.php?id=100004459118798" target="_blank" 
+                rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i>Facebook page</a>
+            </li>
+
+        </ul>
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/channel/UCLGP-CycjQhc7UfeTVPnOIg" target="_blank" 
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-youtube"></i>YouTube Channel</a>
+            </li>
+
+        </ul>
+        </div>
+        </footer>
+    </footer>
+</section>
+<div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1014302996705!2d90.3988085164996!3d23.779402166789872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77055555555%3A0xcfb6cac3eb68c145!2sMohakhali%20Kacha%20Bazar!5e0!3m2!1sen!2sbd!4v1719167631593!5m2!1sen!2sbd" 
+    title="Mohakhali Home address"
+    width="400" 
+    height="450" 
+    style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</body>
+
+</html>
