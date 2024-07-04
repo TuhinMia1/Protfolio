@@ -1,4 +1,124 @@
-header
-#about{
 
+body{
+    background-color: #ebe9e9;
+    font-family: "Roboto", sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;  
+}
+
+.card{
+    background-color: #fff;
+    border-radius:0.5 ;
+    box-shadow: 0 0.2rem 0.4rem #c7c7c7;
+    margin: 1.2rem;
+    padding: 1.2rem;
+
+}
+
+header { 
+    color: #fd0101;
+    background-color: #4caf50; 
+    text-align: center; 
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    margin: 0 0.8rem;
+}
+nav ul li a{
+    color: #f0f5f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    
+}
+h1{
+    text-align: center;
+    font-style:oblique;
+    color: crimson;
+    font-size: 3rem;
+
+}
+h2,h3{
+    color: #4caf50;  
+}
+h2{
+    font-size: 3rem;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+input,select,
+textarea {
+    width:60%;
+    padding: 0.8rem;
+    margin: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+
+}
+/*main section here*/
+main{
+width: 80%;
+margin:auto;
+padding: 1.2rem;
+}
+table{
+width: 100%;
+border-collapse: collapse;
+margin: 1.2rem 0;
+}
+table,th,td{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+}
+
+
+th{
+    background: #aee9f3;
+}
+
+button{
+    background-color: rgb(218, 22, 8);
+    color: #ebe9e9;
+    padding: 0.7rem 1.6rem;
+    margin: 0.8rem 1.6rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4caf50;
+
+}
+h1::first-letter{
+    color: black;
+}
+p{
+    color: rgb(227, 226, 235);
+}
+/*Footer section */
+footer{
+    background-color: rgb(41, 255, 88);
+    color: #ebe9e9;
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem 0;
+    bottom: ;
+}
+footer,p{
+    color: #0a0a0a;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+.social-media a {
+    color: #f5e9e9;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin: 0 0.5rem;
 }
