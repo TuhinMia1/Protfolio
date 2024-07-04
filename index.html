@@ -14,60 +14,52 @@
     crossorigin="anonymous" 
     referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="style.css">
+<h1 >Welcome To My Protfolio</h1> 
+
     </head>
 
 <body>
-    <!--Basic personal information -->
-<h1 >Welcome to my protfolio</h1> 
 
-<!--Add font aweaome cdn -->
+    <header>
+        <Nav>
+            <ul>
+                <li> <a href="#index.html" title="Visit Home pages" class="nav-link">Home</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#skill.html" class=".nav-link">Skill</a></li>
+            </ul>
+            <ul>
+                <li> <a href="#Project.html " class="nav-link">My Project</a></li>
+            </ul>
+            <ul>
+                <li><a href="#Contact.html" class="nav-link">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#./pages/AboutMe.html" class="nav-link">About Me</a></li>
+            </ul>
+                
+        </Nav>
+        
+    </header>
 
-<style>
-body{
-    background-color: rgb(168, 197, 187);
-    font-family: "Roboto", sans-serif;
-}
 
-</style>
+
 <!--google font-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-
+<main>
 <!--Section intro-->
-<section id="intro">
+<section id="intro" class="card">
  <h2><b>Tuhin Ahmed</b></h2>
  <p><em> Web developer and computer science & engineering</em> </p>
  <a href="https://www.youtube.com/"><img src="./Images/Md Tuhin Mia.jpg"  height="155" alt="Md Tuhin Mia"/></a>
  
- <hr/>
-<header>
-    <Nav>
-        <ul>
-            <li> <a href="#index.html" title="Visit Home pages ">Home</a></li>
-        </ul>
-        <ul>
-            <li> <a href="#skill.html">Skill</a></li>
-        </ul>
-        <ul>
-            <li> <a href="#Project.html">My Project</a></li>
-        </ul>
-        <ul>
-            <li><a href="#Contact.html">Contact</a></li>
-        </ul>
-        <ul>
-            <li><a href="#./pages/AboutMe.html">About Me</a></li>
-        </ul>
-            
-    </Nav>
-    
-</header>
 
-
-<main>
 <!--Working Experience -->
-<section id="Working Experience"></section>
+<section id="Working Experience" class="card" ></section>
 <h3>Working Experience</h3>
 <hr/>
     <p><strong><u>Working Experience</u>:</strong> 2 years Experience in web development</p>
@@ -75,8 +67,8 @@ body{
 </section>
 
 <!--section Skill-->
-<section id="Skill">
-    <h4><u>Skill</u></h4>
+<section id="Skill" class="card">
+    <h3><u>Skill</u></h3>
     <table border="1"cellpadding="10"cellspacing="0">
         <thead>
             <tbody>
@@ -125,7 +117,7 @@ body{
     
 </section>
 <!--section project-->
-<section id="Project">
+<section id="Project" class="card">
     <h3>Project</h3>
 <ol>
     <li>protfolio website</li>
@@ -133,17 +125,17 @@ body{
     <li>E-Commerce Website</li>
 </ol>
 </section>
-
+<div class="card">
 <video width="280" height="300" controls>
     <caption>Tuitorial video </caption>
     <source src="/video/Cambridge Book 16 - TEST 3.mp4" type="video/mp4">
 
 </video>
-
+</div>
 
 
 <!--Section:Contact-->
-<section id="contract">
+<section id="contract" class="card">
 
     <h2>Contact Me</h2>
     <form>
@@ -234,12 +226,13 @@ body{
     <footer>
         <p>copyrights resived by &copy:Tuhin6024</p>
         <a href="tel:01764566838">Call Me</a></br>
-        <a href="ta1146055@gmail.com">Email</a>
-        <div>
+        <a href="ta1146055@gmail.com">Email Me</a>
+
+        <div class="social-media">
         <h3>Follow Me</h3>
         <ul>
             <li>
-                <a href="https://www.facebook.com/profile.php?id=100004459118798" target="_blank" 
+                <a  href="https://www.facebook.com/profile.php?id=100004459118798" target="_blank" 
                 rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i>Facebook page</a>
             </li>
 
@@ -253,18 +246,18 @@ body{
 
         </ul>
         </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1014302996705!2d90.3988085164996!3d23.779402166789872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77055555555%3A0xcfb6cac3eb68c145!2sMohakhali%20Kacha%20Bazar!5e0!3m2!1sen!2sbd!4v1719167631593!5m2!1sen!2sbd" 
+            title="Mohakhali Home address"
+            width="400" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
         </footer>
     </footer>
 </section>
-<div>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1014302996705!2d90.3988085164996!3d23.779402166789872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c77055555555%3A0xcfb6cac3eb68c145!2sMohakhali%20Kacha%20Bazar!5e0!3m2!1sen!2sbd!4v1719167631593!5m2!1sen!2sbd" 
-    title="Mohakhali Home address"
-    width="400" 
-    height="450" 
-    style="border:0;" 
-    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-
 </body>
 
 </html>
